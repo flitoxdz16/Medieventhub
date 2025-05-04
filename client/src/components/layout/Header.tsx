@@ -14,7 +14,8 @@ import {
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/hooks/useAuth";
 import { useTheme } from "@/providers/ThemeProvider";
-import { useLanguage, Language } from "@/hooks/useLanguage";
+import { useLanguage } from "@/hooks/useLanguage";
+import { Language } from "@/providers/LanguageProvider";
 import { useTranslation } from "react-i18next";
 import { 
   DropdownMenu,

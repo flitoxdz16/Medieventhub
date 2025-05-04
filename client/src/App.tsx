@@ -8,24 +8,27 @@ import { AuthProvider } from "@/providers/AuthProvider";
 import { LanguageProvider } from "@/providers/LanguageProvider";
 import Layout from "@/components/layout/Layout";
 import Dashboard from "@/pages/dashboard";
-import EventsPage from "@/pages/events";
-import CreateEventPage from "@/pages/events/create";
-import EventDetailsPage from "@/pages/events/[id]";
-import CertificatesPage from "@/pages/certificates";
-import CertificateDetailsPage from "@/pages/certificates/[id]";
-import CertificateVerifyPage from "@/pages/certificates/verify";
-import UsersPage from "@/pages/users";
-import RolesPage from "@/pages/roles";
-import MediaPage from "@/pages/media";
-import ReportsPage from "@/pages/reports";
-import LogsPage from "@/pages/logs";
-import SettingsPage from "@/pages/settings";
-import ProfilePage from "@/pages/profile";
-import LoginPage from "@/pages/auth/login";
-import RegisterPage from "@/pages/auth/register";
-import ForgotPasswordPage from "@/pages/auth/forgot-password";
-import ResetPasswordPage from "@/pages/auth/reset-password";
-import { useAuth } from "@/hooks/useAuth";
+// Import existing pages
+import LoginPage from "./pages/auth/login";
+import RegisterPage from "./pages/auth/register";
+import ForgotPasswordPage from "./pages/auth/forgot-password";
+import ResetPasswordPage from "./pages/auth/reset-password";
+import RolesPage from "./pages/roles";
+import { useAuth } from "./hooks/useAuth";
+
+// Temporary placeholders for pages that don't exist yet
+const EventsPage = () => <div>Events Page</div>;
+const CreateEventPage = () => <div>Create Event Page</div>;
+const EventDetailsPage = () => <div>Event Details Page</div>;
+const CertificatesPage = () => <div>Certificates Page</div>;
+const CertificateDetailsPage = () => <div>Certificate Details Page</div>;
+const CertificateVerifyPage = () => <div>Certificate Verify Page</div>;
+const UsersPage = () => <div>Users Page</div>;
+const MediaPage = () => <div>Media Page</div>;
+const ReportsPage = () => <div>Reports Page</div>;
+const LogsPage = () => <div>Logs Page</div>;
+const SettingsPage = () => <div>Settings Page</div>;
+const ProfilePage = () => <div>Profile Page</div>;
 
 // ProtectedRoute component to handle authentication
 function ProtectedRoute({ component: Component, ...rest }: { component: React.ComponentType<any>, [key: string]: any }) {
@@ -57,9 +60,9 @@ function AppRoutes() {
       <Route path="/dashboard" component={() => <ProtectedRoute component={Dashboard} />} />
       <Route path="/events" component={() => <ProtectedRoute component={EventsPage} />} />
       <Route path="/events/create" component={() => <ProtectedRoute component={CreateEventPage} />} />
-      <Route path="/events/:id" component={(params) => <ProtectedRoute component={EventDetailsPage} id={params.id} />} />
+      <Route path="/events/:id" component={(params: any) => <ProtectedRoute component={EventDetailsPage} id={params.params.id} />} />
       <Route path="/certificates" component={() => <ProtectedRoute component={CertificatesPage} />} />
-      <Route path="/certificates/:id" component={(params) => <ProtectedRoute component={CertificateDetailsPage} id={params.id} />} />
+      <Route path="/certificates/:id" component={(params: any) => <ProtectedRoute component={CertificateDetailsPage} id={params.params.id} />} />
       <Route path="/users" component={() => <ProtectedRoute component={UsersPage} />} />
       <Route path="/roles" component={() => <ProtectedRoute component={RolesPage} />} />
       <Route path="/media" component={() => <ProtectedRoute component={MediaPage} />} />

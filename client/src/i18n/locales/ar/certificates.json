@@ -1,0 +1,83 @@
+{
+  "certificates": {
+    "title": "الشهادات",
+    "management": "إدارة الشهادات",
+    "generate": "إصدار شهادة",
+    "verify": "التحقق من الشهادة",
+    "view": "عرض الشهادة",
+    "download": "تنزيل الشهادة",
+    "print": "طباعة الشهادة",
+    "share": "مشاركة الشهادة",
+    "revoke": "إلغاء الشهادة",
+    "details": "تفاصيل الشهادة",
+    "certificateNumber": "رقم الشهادة",
+    "qrCode": "رمز الاستجابة السريعة",
+    "issuedDate": "تاريخ الإصدار",
+    "issuedTo": "صدرت إلى",
+    "event": "الفعالية",
+    "eventDate": "تاريخ الفعالية",
+    "issuedBy": "صدرت بواسطة",
+    "verificationStatus": "حالة التحقق",
+    "verificationSuccessful": "تم التحقق من الشهادة بنجاح",
+    "verificationFailed": "فشل التحقق من الشهادة",
+    "revokeSuccessful": "تم إلغاء الشهادة بنجاح",
+    "revokeFailed": "فشل إلغاء الشهادة",
+    "generateSuccessful": "تم إصدار الشهادة بنجاح",
+    "generateFailed": "فشل إصدار الشهادة",
+    "noCertificates": "لم يتم العثور على شهادات",
+    "status": {
+      "valid": "صالحة",
+      "revoked": "ملغاة",
+      "expired": "منتهية الصلاحية"
+    },
+    "revokeReason": "سبب الإلغاء",
+    "revokedBy": "ألغيت بواسطة",
+    "revokedDate": "تاريخ الإلغاء",
+    "confirmRevoke": "هل أنت متأكد من رغبتك في إلغاء هذه الشهادة؟",
+    "verifyInstructions": "أدخل رقم الشهادة أو امسح رمز الاستجابة السريعة للتحقق",
+    "verificationMessage": {
+      "valid": "هذه الشهادة صالحة وتم إصدارها من قبل نظام إدارة الفعاليات الطبية",
+      "revoked": "تم إلغاء هذه الشهادة",
+      "notFound": "لم يتم العثور على شهادة بهذا الرقم"
+    },
+    "filters": {
+      "status": "تصفية حسب الحالة",
+      "event": "تصفية حسب الفعالية",
+      "date": "تصفية حسب التاريخ",
+      "search": "البحث برقم الشهادة أو المستلم"
+    }
+  },
+  "verification": {
+    "title": "التحقق من الشهادة",
+    "instructions": "أدخل رقم الشهادة أو امسح رمز الاستجابة السريعة أدناه للتحقق من صحة الشهادة",
+    "enterNumber": "أدخل رقم الشهادة",
+    "scanQr": "مسح رمز الاستجابة السريعة",
+    "verify": "تحقق",
+    "result": "نتيجة التحقق",
+    "loading": "جاري التحقق من الشهادة...",
+    "valid": "شهادة صالحة",
+    "invalid": "شهادة غير صالحة",
+    "details": "تفاصيل الشهادة",
+    "validMessage": "هذه الشهادة أصلية وتم إصدارها من قبل نظام إدارة الفعاليات الطبية.",
+    "invalidMessage": "تعذر التحقق من هذه الشهادة. قد تكون غير صالحة أو ملغاة أو غير موجودة."
+  },
+  "templateElements": {
+    "certificateOfParticipation": "شهادة مشاركة",
+    "certificateOfAttendance": "شهادة حضور",
+    "certificateOfAchievement": "شهادة إنجاز",
+    "certificateOfCompletion": "شهادة إتمام",
+    "thisIsToVerify": "نشهد بأن",
+    "hasParticipated": "قد شارك في",
+    "hasAttended": "قد حضر",
+    "hasCompleted": "قد أتم بنجاح",
+    "conductedFrom": "المنعقدة من",
+    "to": "إلى",
+    "issuedOn": "صدرت في",
+    "authorizedSignatory": "المفوض بالتوقيع",
+    "ministerOfHealth": "وزير الصحة",
+    "directorGeneral": "المدير العام",
+    "scanToVerify": "امسح للتحقق من صحة الشهادة",
+    "verifyAt": "تحقق في:",
+    "verificationWebsite": "certificates.medevents.org/verify"
+  }
+}
