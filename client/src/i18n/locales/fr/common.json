@@ -1,0 +1,112 @@
+{
+  "app": {
+    "name": "MedEvents",
+    "tagline": "Plateforme de Gestion des Événements Médicaux",
+    "slogan": "Connecter les Professionnels de la Santé"
+  },
+  "navigation": {
+    "dashboard": "Tableau de Bord",
+    "events": "Événements",
+    "users": "Utilisateurs",
+    "roles": "Rôles",
+    "certificates": "Certificats",
+    "reports": "Rapports",
+    "settings": "Paramètres",
+    "logout": "Déconnexion",
+    "profile": "Profil"
+  },
+  "actions": {
+    "create": "Créer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "view": "Voir",
+    "download": "Télécharger",
+    "upload": "Téléverser",
+    "generate": "Générer",
+    "revoke": "Révoquer",
+    "verify": "Vérifier",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "reset": "Réinitialiser",
+    "submit": "Soumettre",
+    "next": "Suivant",
+    "previous": "Précédent"
+  },
+  "general": {
+    "loading": "Chargement...",
+    "noDataAvailable": "Aucune donnée disponible",
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "info": "Information",
+    "required": "Obligatoire",
+    "optional": "Optionnel",
+    "status": "Statut",
+    "date": "Date",
+    "time": "Heure",
+    "location": "Emplacement",
+    "description": "Description",
+    "details": "Détails",
+    "name": "Nom",
+    "email": "Email",
+    "password": "Mot de Passe",
+    "role": "Rôle",
+    "organization": "Organisation",
+    "position": "Poste",
+    "type": "Type",
+    "level": "Niveau",
+    "capacity": "Capacité",
+    "startDate": "Date de Début",
+    "endDate": "Date de Fin",
+    "deadline": "Date Limite",
+    "created": "Créé",
+    "updated": "Mis à jour",
+    "createdBy": "Créé par",
+    "updatedBy": "Mis à jour par",
+    "all": "Tous",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "pending": "En attente",
+    "approved": "Approuvé",
+    "rejected": "Rejeté",
+    "completed": "Terminé",
+    "cancelled": "Annulé"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllAsRead": "Marquer tout comme lu",
+    "viewAll": "Voir tout",
+    "noNotifications": "Aucune notification",
+    "new": "Nouveau"
+  },
+  "errors": {
+    "required": "Ce champ est obligatoire",
+    "invalidEmail": "Veuillez entrer un email valide",
+    "passwordLength": "Le mot de passe doit comporter au moins 8 caractères",
+    "invalidCredentials": "Email ou mot de passe invalide",
+    "unauthorized": "Vous n'êtes pas autorisé à effectuer cette action",
+    "serverError": "Erreur du serveur, veuillez réessayer plus tard"
+  },
+  "permissions": {
+    "permissions": "Permissions",
+    "manage": "Gérer les Permissions",
+    "noPermissions": "Aucune permission attribuée"
+  },
+  "darkMode": {
+    "enable": "Activer le Mode Sombre",
+    "disable": "Désactiver le Mode Sombre"
+  },
+  "language": {
+    "select": "Sélectionner la Langue",
+    "english": "Anglais",
+    "french": "Français",
+    "arabic": "Arabe"
+  }
+}

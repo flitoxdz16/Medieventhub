@@ -1,0 +1,112 @@
+{
+  "app": {
+    "name": "ميد إيفنتس",
+    "tagline": "منصة إدارة الفعاليات الطبية",
+    "slogan": "ربط المتخصصين في الرعاية الصحية"
+  },
+  "navigation": {
+    "dashboard": "لوحة التحكم",
+    "events": "الفعاليات",
+    "users": "المستخدمون",
+    "roles": "الأدوار",
+    "certificates": "الشهادات",
+    "reports": "التقارير",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج",
+    "profile": "الملف الشخصي"
+  },
+  "actions": {
+    "create": "إنشاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "approve": "موافقة",
+    "reject": "رفض",
+    "search": "بحث",
+    "filter": "تصفية",
+    "view": "عرض",
+    "download": "تنزيل",
+    "upload": "رفع",
+    "generate": "إنشاء",
+    "revoke": "إلغاء",
+    "verify": "تحقق",
+    "login": "تسجيل الدخول",
+    "register": "تسجيل",
+    "reset": "إعادة تعيين",
+    "submit": "إرسال",
+    "next": "التالي",
+    "previous": "السابق"
+  },
+  "general": {
+    "loading": "جاري التحميل...",
+    "noDataAvailable": "لا توجد بيانات متاحة",
+    "error": "خطأ",
+    "success": "نجاح",
+    "warning": "تحذير",
+    "info": "معلومات",
+    "required": "مطلوب",
+    "optional": "اختياري",
+    "status": "الحالة",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "location": "الموقع",
+    "description": "الوصف",
+    "details": "التفاصيل",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "role": "الدور",
+    "organization": "المؤسسة",
+    "position": "المنصب",
+    "type": "النوع",
+    "level": "المستوى",
+    "capacity": "السعة",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "deadline": "الموعد النهائي",
+    "created": "تم الإنشاء",
+    "updated": "تم التحديث",
+    "createdBy": "أنشئ بواسطة",
+    "updatedBy": "تم التحديث بواسطة",
+    "all": "الكل",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "pending": "قيد الانتظار",
+    "approved": "تمت الموافقة",
+    "rejected": "مرفوض",
+    "completed": "مكتمل",
+    "cancelled": "ملغى"
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "markAllAsRead": "تعليم الكل كمقروء",
+    "viewAll": "عرض الكل",
+    "noNotifications": "لا توجد إشعارات",
+    "new": "جديد"
+  },
+  "errors": {
+    "required": "هذا الحقل مطلوب",
+    "invalidEmail": "الرجاء إدخال بريد إلكتروني صالح",
+    "passwordLength": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل",
+    "invalidCredentials": "بريد إلكتروني أو كلمة مرور غير صالحة",
+    "unauthorized": "غير مصرح لك بتنفيذ هذا الإجراء",
+    "serverError": "خطأ في الخادم، يرجى المحاولة مرة أخرى لاحقاً"
+  },
+  "permissions": {
+    "permissions": "الصلاحيات",
+    "manage": "إدارة الصلاحيات",
+    "noPermissions": "لم يتم تعيين أي صلاحيات"
+  },
+  "darkMode": {
+    "enable": "تفعيل الوضع الداكن",
+    "disable": "تعطيل الوضع الداكن"
+  },
+  "language": {
+    "select": "اختر اللغة",
+    "english": "الإنجليزية",
+    "french": "الفرنسية",
+    "arabic": "العربية"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "events": {
+    "title": "Events",
+    "create": "Create Event",
+    "edit": "Edit Event",
+    "details": "Event Details",
+    "schedule": "Event Schedule",
+    "speakers": "Event Speakers",
+    "documents": "Event Documents",
+    "registrations": "Event Registrations",
+    "register": "Register for Event",
+    "type": "Event Type",
+    "level": "Event Level",
+    "location": "Location",
+    "address": "Address",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "registrationDeadline": "Registration Deadline",
+    "capacity": "Capacity",
+    "status": "Status",
+    "createdBy": "Created By",
+    "noEvents": "No events found",
+    "upcomingEvents": "Upcoming Events",
+    "pastEvents": "Past Events",
+    "myEvents": "My Events",
+    "eventsAttended": "Events Attended",
+    "eventTypes": {
+      "conference": "Conference",
+      "workshop": "Workshop",
+      "seminar": "Seminar",
+      "training": "Training",
+      "symposium": "Symposium"
+    },
+    "eventLevels": {
+      "national": "National",
+      "provincial": "Provincial",
+      "local": "Local",
+      "hospital": "Hospital",
+      "department": "Department"
+    },
+    "eventStatus": {
+      "draft": "Draft",
+      "upcoming": "Upcoming",
+      "active": "Active",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "registrationStatus": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "attended": "Attended"
+    },
+    "filters": {
+      "all": "All Events",
+      "type": "Filter by Type",
+      "level": "Filter by Level",
+      "status": "Filter by Status",
+      "date": "Filter by Date"
+    },
+    "success": {
+      "created": "Event created successfully",
+      "updated": "Event updated successfully",
+      "deleted": "Event deleted successfully",
+      "registered": "Registration successful",
+      "cancelled": "Registration cancelled"
+    },
+    "errors": {
+      "createFailed": "Failed to create event",
+      "updateFailed": "Failed to update event",
+      "deleteFailed": "Failed to delete event",
+      "registrationFailed": "Registration failed",
+      "notFound": "Event not found"
+    },
+    "confirmations": {
+      "delete": "Are you sure you want to delete this event?",
+      "cancel": "Are you sure you want to cancel this event?",
+      "deregister": "Are you sure you want to cancel your registration?"
+    }
+  },
+  "speakers": {
+    "title": "Speakers",
+    "add": "Add Speaker",
+    "edit": "Edit Speaker",
+    "name": "Speaker Name",
+    "title": "Title",
+    "organization": "Organization",
+    "bio": "Biography",
+    "photo": "Photo",
+    "presentations": "Presentations",
+    "noSpeakers": "No speakers found"
+  },
+  "schedules": {
+    "title": "Schedule",
+    "add": "Add Schedule Item",
+    "edit": "Edit Schedule Item",
+    "title": "Title",
+    "description": "Description",
+    "speaker": "Speaker",
+    "date": "Date",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "location": "Location",
+    "noSchedule": "No schedule items found"
+  },
+  "documents": {
+    "title": "Documents",
+    "add": "Upload Document",
+    "name": "Document Name",
+    "description": "Description",
+    "file": "File",
+    "fileType": "File Type",
+    "fileSize": "File Size",
+    "uploadedBy": "Uploaded By",
+    "uploadDate": "Upload Date",
+    "noDocuments": "No documents found"
+  },
+  "registrations": {
+    "title": "Registrations",
+    "manage": "Manage Registrations",
+    "status": "Status",
+    "registrationDate": "Registration Date",
+    "attendanceConfirmed": "Attendance Confirmed",
+    "notes": "Notes",
+    "approve": "Approve",
+    "reject": "Reject",
+    "confirmAttendance": "Confirm Attendance",
+    "noRegistrations": "No registrations found",
+    "registerSuccess": "Registered successfully",
+    "approveSuccess": "Registration approved",
+    "rejectSuccess": "Registration rejected",
+    "attendanceSuccess": "Attendance confirmed"
+  }
+}

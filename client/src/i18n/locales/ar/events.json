@@ -1,0 +1,136 @@
+{
+  "events": {
+    "title": "الفعاليات",
+    "create": "إنشاء فعالية",
+    "edit": "تعديل الفعالية",
+    "details": "تفاصيل الفعالية",
+    "schedule": "جدول الفعالية",
+    "speakers": "متحدثو الفعالية",
+    "documents": "مستندات الفعالية",
+    "registrations": "تسجيلات الفعالية",
+    "register": "التسجيل في الفعالية",
+    "type": "نوع الفعالية",
+    "level": "مستوى الفعالية",
+    "location": "الموقع",
+    "address": "العنوان",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "startTime": "وقت البدء",
+    "endTime": "وقت الانتهاء",
+    "registrationDeadline": "الموعد النهائي للتسجيل",
+    "capacity": "السعة",
+    "status": "الحالة",
+    "createdBy": "أنشئت بواسطة",
+    "noEvents": "لم يتم العثور على فعاليات",
+    "upcomingEvents": "الفعاليات القادمة",
+    "pastEvents": "الفعاليات السابقة",
+    "myEvents": "فعالياتي",
+    "eventsAttended": "الفعاليات التي حضرتها",
+    "eventTypes": {
+      "conference": "مؤتمر",
+      "workshop": "ورشة عمل",
+      "seminar": "ندوة",
+      "training": "تدريب",
+      "symposium": "ملتقى"
+    },
+    "eventLevels": {
+      "national": "وطني",
+      "provincial": "إقليمي",
+      "local": "محلي",
+      "hospital": "مستشفى",
+      "department": "قسم"
+    },
+    "eventStatus": {
+      "draft": "مسودة",
+      "upcoming": "قادمة",
+      "active": "نشطة",
+      "completed": "مكتملة",
+      "cancelled": "ملغاة"
+    },
+    "registrationStatus": {
+      "pending": "قيد الانتظار",
+      "approved": "تمت الموافقة",
+      "rejected": "مرفوض",
+      "attended": "تم الحضور"
+    },
+    "filters": {
+      "all": "جميع الفعاليات",
+      "type": "تصفية حسب النوع",
+      "level": "تصفية حسب المستوى",
+      "status": "تصفية حسب الحالة",
+      "date": "تصفية حسب التاريخ"
+    },
+    "success": {
+      "created": "تم إنشاء الفعالية بنجاح",
+      "updated": "تم تحديث الفعالية بنجاح",
+      "deleted": "تم حذف الفعالية بنجاح",
+      "registered": "تم التسجيل بنجاح",
+      "cancelled": "تم إلغاء التسجيل"
+    },
+    "errors": {
+      "createFailed": "فشل إنشاء الفعالية",
+      "updateFailed": "فشل تحديث الفعالية",
+      "deleteFailed": "فشل حذف الفعالية",
+      "registrationFailed": "فشل التسجيل",
+      "notFound": "لم يتم العثور على الفعالية"
+    },
+    "confirmations": {
+      "delete": "هل أنت متأكد من رغبتك في حذف هذه الفعالية؟",
+      "cancel": "هل أنت متأكد من رغبتك في إلغاء هذه الفعالية؟",
+      "deregister": "هل أنت متأكد من رغبتك في إلغاء تسجيلك؟"
+    }
+  },
+  "speakers": {
+    "title": "المتحدثون",
+    "add": "إضافة متحدث",
+    "edit": "تعديل المتحدث",
+    "name": "اسم المتحدث",
+    "title": "اللقب",
+    "organization": "المؤسسة",
+    "bio": "السيرة الذاتية",
+    "photo": "الصورة",
+    "presentations": "العروض التقديمية",
+    "noSpeakers": "لم يتم العثور على متحدثين"
+  },
+  "schedules": {
+    "title": "الجدول",
+    "add": "إضافة عنصر للجدول",
+    "edit": "تعديل عنصر الجدول",
+    "title": "العنوان",
+    "description": "الوصف",
+    "speaker": "المتحدث",
+    "date": "التاريخ",
+    "startTime": "وقت البدء",
+    "endTime": "وقت الانتهاء",
+    "location": "الموقع",
+    "noSchedule": "لم يتم العثور على عناصر في الجدول"
+  },
+  "documents": {
+    "title": "المستندات",
+    "add": "رفع مستند",
+    "name": "اسم المستند",
+    "description": "الوصف",
+    "file": "الملف",
+    "fileType": "نوع الملف",
+    "fileSize": "حجم الملف",
+    "uploadedBy": "تم الرفع بواسطة",
+    "uploadDate": "تاريخ الرفع",
+    "noDocuments": "لم يتم العثور على مستندات"
+  },
+  "registrations": {
+    "title": "التسجيلات",
+    "manage": "إدارة التسجيلات",
+    "status": "الحالة",
+    "registrationDate": "تاريخ التسجيل",
+    "attendanceConfirmed": "تم تأكيد الحضور",
+    "notes": "ملاحظات",
+    "approve": "موافقة",
+    "reject": "رفض",
+    "confirmAttendance": "تأكيد الحضور",
+    "noRegistrations": "لم يتم العثور على تسجيلات",
+    "registerSuccess": "تم التسجيل بنجاح",
+    "approveSuccess": "تمت الموافقة على التسجيل",
+    "rejectSuccess": "تم رفض التسجيل",
+    "attendanceSuccess": "تم تأكيد الحضور"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "certificates": {
+    "title": "Certificats",
+    "management": "Gestion des Certificats",
+    "generate": "Générer un Certificat",
+    "verify": "Vérifier un Certificat",
+    "view": "Voir le Certificat",
+    "download": "Télécharger le Certificat",
+    "print": "Imprimer le Certificat",
+    "share": "Partager le Certificat",
+    "revoke": "Révoquer le Certificat",
+    "details": "Détails du Certificat",
+    "certificateNumber": "Numéro de Certificat",
+    "qrCode": "Code QR",
+    "issuedDate": "Date d'Émission",
+    "issuedTo": "Émis à",
+    "event": "Événement",
+    "eventDate": "Date de l'Événement",
+    "issuedBy": "Émis par",
+    "verificationStatus": "Statut de Vérification",
+    "verificationSuccessful": "Vérification du certificat réussie",
+    "verificationFailed": "Échec de la vérification du certificat",
+    "revokeSuccessful": "Certificat révoqué avec succès",
+    "revokeFailed": "Échec de la révocation du certificat",
+    "generateSuccessful": "Certificat généré avec succès",
+    "generateFailed": "Échec de la génération du certificat",
+    "noCertificates": "Aucun certificat trouvé",
+    "status": {
+      "valid": "Valide",
+      "revoked": "Révoqué",
+      "expired": "Expiré"
+    },
+    "revokeReason": "Raison de la Révocation",
+    "revokedBy": "Révoqué par",
+    "revokedDate": "Date de Révocation",
+    "confirmRevoke": "Êtes-vous sûr de vouloir révoquer ce certificat?",
+    "verifyInstructions": "Entrez le numéro du certificat ou scannez le code QR pour vérifier",
+    "verificationMessage": {
+      "valid": "Ce certificat est valide et a été émis par le Système de Gestion des Événements Médicaux",
+      "revoked": "Ce certificat a été révoqué",
+      "notFound": "Aucun certificat trouvé avec ce numéro"
+    },
+    "filters": {
+      "status": "Filtrer par Statut",
+      "event": "Filtrer par Événement",
+      "date": "Filtrer par Date",
+      "search": "Rechercher par numéro de certificat ou destinataire"
+    }
+  },
+  "verification": {
+    "title": "Vérification de Certificat",
+    "instructions": "Entrez le numéro du certificat ou scannez le code QR ci-dessous pour vérifier l'authenticité d'un certificat",
+    "enterNumber": "Entrez le Numéro de Certificat",
+    "scanQr": "Scanner le Code QR",
+    "verify": "Vérifier",
+    "result": "Résultat de la Vérification",
+    "loading": "Vérification du certificat...",
+    "valid": "Certificat Valide",
+    "invalid": "Certificat Invalide",
+    "details": "Détails du Certificat",
+    "validMessage": "Ce certificat est authentique et a été émis par le Système de Gestion des Événements Médicaux.",
+    "invalidMessage": "Ce certificat n'a pas pu être vérifié. Il peut être invalide, révoqué ou n'existe pas."
+  },
+  "templateElements": {
+    "certificateOfParticipation": "Certificat de Participation",
+    "certificateOfAttendance": "Certificat de Présence",
+    "certificateOfAchievement": "Certificat de Réussite",
+    "certificateOfCompletion": "Certificat d'Achèvement",
+    "thisIsToVerify": "Ceci certifie que",
+    "hasParticipated": "a participé à",
+    "hasAttended": "a assisté à",
+    "hasCompleted": "a complété avec succès",
+    "conductedFrom": "tenu du",
+    "to": "au",
+    "issuedOn": "Émis le",
+    "authorizedSignatory": "Signataire Autorisé",
+    "ministerOfHealth": "Ministre de la Santé",
+    "directorGeneral": "Directeur Général",
+    "scanToVerify": "Scannez pour vérifier l'authenticité du certificat",
+    "verifyAt": "Vérifiez à:",
+    "verificationWebsite": "certificats.medevents.org/verifier"
+  }
+}

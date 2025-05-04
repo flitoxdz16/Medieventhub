@@ -1,0 +1,136 @@
+{
+  "events": {
+    "title": "Événements",
+    "create": "Créer un Événement",
+    "edit": "Modifier l'Événement",
+    "details": "Détails de l'Événement",
+    "schedule": "Programme de l'Événement",
+    "speakers": "Conférenciers de l'Événement",
+    "documents": "Documents de l'Événement",
+    "registrations": "Inscriptions à l'Événement",
+    "register": "S'inscrire à l'Événement",
+    "type": "Type d'Événement",
+    "level": "Niveau d'Événement",
+    "location": "Lieu",
+    "address": "Adresse",
+    "startDate": "Date de Début",
+    "endDate": "Date de Fin",
+    "startTime": "Heure de Début",
+    "endTime": "Heure de Fin",
+    "registrationDeadline": "Date Limite d'Inscription",
+    "capacity": "Capacité",
+    "status": "Statut",
+    "createdBy": "Créé par",
+    "noEvents": "Aucun événement trouvé",
+    "upcomingEvents": "Événements à Venir",
+    "pastEvents": "Événements Passés",
+    "myEvents": "Mes Événements",
+    "eventsAttended": "Événements Auxquels J'ai Participé",
+    "eventTypes": {
+      "conference": "Conférence",
+      "workshop": "Atelier",
+      "seminar": "Séminaire",
+      "training": "Formation",
+      "symposium": "Symposium"
+    },
+    "eventLevels": {
+      "national": "National",
+      "provincial": "Provincial",
+      "local": "Local",
+      "hospital": "Hôpital",
+      "department": "Département"
+    },
+    "eventStatus": {
+      "draft": "Brouillon",
+      "upcoming": "À Venir",
+      "active": "Actif",
+      "completed": "Terminé",
+      "cancelled": "Annulé"
+    },
+    "registrationStatus": {
+      "pending": "En Attente",
+      "approved": "Approuvé",
+      "rejected": "Rejeté",
+      "attended": "Participé"
+    },
+    "filters": {
+      "all": "Tous les Événements",
+      "type": "Filtrer par Type",
+      "level": "Filtrer par Niveau",
+      "status": "Filtrer par Statut",
+      "date": "Filtrer par Date"
+    },
+    "success": {
+      "created": "Événement créé avec succès",
+      "updated": "Événement mis à jour avec succès",
+      "deleted": "Événement supprimé avec succès",
+      "registered": "Inscription réussie",
+      "cancelled": "Inscription annulée"
+    },
+    "errors": {
+      "createFailed": "Échec de la création de l'événement",
+      "updateFailed": "Échec de la mise à jour de l'événement",
+      "deleteFailed": "Échec de la suppression de l'événement",
+      "registrationFailed": "Échec de l'inscription",
+      "notFound": "Événement non trouvé"
+    },
+    "confirmations": {
+      "delete": "Êtes-vous sûr de vouloir supprimer cet événement?",
+      "cancel": "Êtes-vous sûr de vouloir annuler cet événement?",
+      "deregister": "Êtes-vous sûr de vouloir annuler votre inscription?"
+    }
+  },
+  "speakers": {
+    "title": "Conférenciers",
+    "add": "Ajouter un Conférencier",
+    "edit": "Modifier le Conférencier",
+    "name": "Nom du Conférencier",
+    "title": "Titre",
+    "organization": "Organisation",
+    "bio": "Biographie",
+    "photo": "Photo",
+    "presentations": "Présentations",
+    "noSpeakers": "Aucun conférencier trouvé"
+  },
+  "schedules": {
+    "title": "Programme",
+    "add": "Ajouter un Élément au Programme",
+    "edit": "Modifier l'Élément du Programme",
+    "title": "Titre",
+    "description": "Description",
+    "speaker": "Conférencier",
+    "date": "Date",
+    "startTime": "Heure de Début",
+    "endTime": "Heure de Fin",
+    "location": "Lieu",
+    "noSchedule": "Aucun élément de programme trouvé"
+  },
+  "documents": {
+    "title": "Documents",
+    "add": "Téléverser un Document",
+    "name": "Nom du Document",
+    "description": "Description",
+    "file": "Fichier",
+    "fileType": "Type de Fichier",
+    "fileSize": "Taille du Fichier",
+    "uploadedBy": "Téléversé par",
+    "uploadDate": "Date de Téléversement",
+    "noDocuments": "Aucun document trouvé"
+  },
+  "registrations": {
+    "title": "Inscriptions",
+    "manage": "Gérer les Inscriptions",
+    "status": "Statut",
+    "registrationDate": "Date d'Inscription",
+    "attendanceConfirmed": "Présence Confirmée",
+    "notes": "Notes",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "confirmAttendance": "Confirmer la Présence",
+    "noRegistrations": "Aucune inscription trouvée",
+    "registerSuccess": "Inscription réussie",
+    "approveSuccess": "Inscription approuvée",
+    "rejectSuccess": "Inscription rejetée",
+    "attendanceSuccess": "Présence confirmée"
+  }
+}

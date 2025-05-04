@@ -1,0 +1,112 @@
+{
+  "app": {
+    "name": "MedEvents",
+    "tagline": "Medical Events Management Platform",
+    "slogan": "Connecting Healthcare Professionals"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "events": "Events",
+    "users": "Users",
+    "roles": "Roles",
+    "certificates": "Certificates",
+    "reports": "Reports",
+    "settings": "Settings",
+    "logout": "Logout",
+    "profile": "Profile"
+  },
+  "actions": {
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "approve": "Approve",
+    "reject": "Reject",
+    "search": "Search",
+    "filter": "Filter",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "generate": "Generate",
+    "revoke": "Revoke",
+    "verify": "Verify",
+    "login": "Login",
+    "register": "Register",
+    "reset": "Reset",
+    "submit": "Submit",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "general": {
+    "loading": "Loading...",
+    "noDataAvailable": "No data available",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "required": "Required",
+    "optional": "Optional",
+    "status": "Status",
+    "date": "Date",
+    "time": "Time",
+    "location": "Location",
+    "description": "Description",
+    "details": "Details",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "role": "Role",
+    "organization": "Organization",
+    "position": "Position",
+    "type": "Type",
+    "level": "Level",
+    "capacity": "Capacity",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "deadline": "Deadline",
+    "created": "Created",
+    "updated": "Updated",
+    "createdBy": "Created By",
+    "updatedBy": "Updated By",
+    "all": "All",
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllAsRead": "Mark all as read",
+    "viewAll": "View all",
+    "noNotifications": "No notifications",
+    "new": "New"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email",
+    "passwordLength": "Password must be at least 8 characters",
+    "invalidCredentials": "Invalid email or password",
+    "unauthorized": "You are not authorized to perform this action",
+    "serverError": "Server error, please try again later"
+  },
+  "permissions": {
+    "permissions": "Permissions",
+    "manage": "Manage Permissions",
+    "noPermissions": "No permissions assigned"
+  },
+  "darkMode": {
+    "enable": "Enable Dark Mode",
+    "disable": "Disable Dark Mode"
+  },
+  "language": {
+    "select": "Select Language",
+    "english": "English",
+    "french": "French",
+    "arabic": "Arabic"
+  }
+}

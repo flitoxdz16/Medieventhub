@@ -1,0 +1,83 @@
+{
+  "certificates": {
+    "title": "Certificates",
+    "management": "Certificate Management",
+    "generate": "Generate Certificate",
+    "verify": "Verify Certificate",
+    "view": "View Certificate",
+    "download": "Download Certificate",
+    "print": "Print Certificate",
+    "share": "Share Certificate",
+    "revoke": "Revoke Certificate",
+    "details": "Certificate Details",
+    "certificateNumber": "Certificate Number",
+    "qrCode": "QR Code",
+    "issuedDate": "Issued Date",
+    "issuedTo": "Issued To",
+    "event": "Event",
+    "eventDate": "Event Date",
+    "issuedBy": "Issued By",
+    "verificationStatus": "Verification Status",
+    "verificationSuccessful": "Certificate verification successful",
+    "verificationFailed": "Certificate verification failed",
+    "revokeSuccessful": "Certificate revoked successfully",
+    "revokeFailed": "Failed to revoke certificate",
+    "generateSuccessful": "Certificate generated successfully",
+    "generateFailed": "Failed to generate certificate",
+    "noCertificates": "No certificates found",
+    "status": {
+      "valid": "Valid",
+      "revoked": "Revoked",
+      "expired": "Expired"
+    },
+    "revokeReason": "Revocation Reason",
+    "revokedBy": "Revoked By",
+    "revokedDate": "Revocation Date",
+    "confirmRevoke": "Are you sure you want to revoke this certificate?",
+    "verifyInstructions": "Enter the certificate number or scan the QR code to verify",
+    "verificationMessage": {
+      "valid": "This certificate is valid and was issued by Medical Events Management System",
+      "revoked": "This certificate has been revoked",
+      "notFound": "No certificate found with this number"
+    },
+    "filters": {
+      "status": "Filter by Status",
+      "event": "Filter by Event",
+      "date": "Filter by Date",
+      "search": "Search by certificate number or recipient"
+    }
+  },
+  "verification": {
+    "title": "Certificate Verification",
+    "instructions": "Enter the certificate number or scan the QR code below to verify the authenticity of a certificate",
+    "enterNumber": "Enter Certificate Number",
+    "scanQr": "Scan QR Code",
+    "verify": "Verify",
+    "result": "Verification Result",
+    "loading": "Verifying certificate...",
+    "valid": "Valid Certificate",
+    "invalid": "Invalid Certificate",
+    "details": "Certificate Details",
+    "validMessage": "This certificate is authentic and was issued by the Medical Events Management System.",
+    "invalidMessage": "This certificate could not be verified. It may be invalid, revoked, or does not exist."
+  },
+  "templateElements": {
+    "certificateOfParticipation": "Certificate of Participation",
+    "certificateOfAttendance": "Certificate of Attendance",
+    "certificateOfAchievement": "Certificate of Achievement",
+    "certificateOfCompletion": "Certificate of Completion",
+    "thisIsToVerify": "This is to certify that",
+    "hasParticipated": "has participated in",
+    "hasAttended": "has attended",
+    "hasCompleted": "has successfully completed",
+    "conductedFrom": "conducted from",
+    "to": "to",
+    "issuedOn": "Issued on",
+    "authorizedSignatory": "Authorized Signatory",
+    "ministerOfHealth": "Minister of Health",
+    "directorGeneral": "Director General",
+    "scanToVerify": "Scan to verify certificate authenticity",
+    "verifyAt": "Verify at:",
+    "verificationWebsite": "certificates.medevents.org/verify"
+  }
+}
