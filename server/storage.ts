@@ -90,6 +90,18 @@ export const storage = {
     });
   },
   
+  async getUserByUsername(username: string) {
+    return await db.query.users.findFirst({
+      where: eq(schema.users.username, username),
+      columns: {
+        password: false,
+        verificationToken: false,
+        passwordResetToken: false,
+        passwordResetExpires: false,
+      },
+    });
+  },
+  
   async getUserByEmail(email: string) {
     return await db.query.users.findFirst({
       where: eq(schema.users.email, email),

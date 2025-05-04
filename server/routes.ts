@@ -81,33 +81,55 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(400).json({ message: "User with this email already exists" });
       }
       
-      const { user, verificationToken } = await storage.createUser(userData);
+      // Check if username already exists
+      const existingUsername = await storage.getUserByUsername(userData.username);
+      if (existingUsername) {
+        return res.status(400).json({ message: "Username already taken" });
+      }
       
-      // Send verification email
-      const verificationUrl = `${req.protocol}://${req.get("host")}${apiPrefix}/auth/verify/${verificationToken}`;
-      await sendEmail({
-        to: userData.email,
-        subject: "Verify your MedEvents account",
-        html: `
-          <h1>Welcome to MedEvents!</h1>
-          <p>Please verify your email address by clicking the link below:</p>
-          <a href="${verificationUrl}">Verify Email</a>
-        `,
-      });
+      // For development, set verified to true by default
+      const modifiedUserData = {
+        ...userData,
+        verified: true // Skip email verification for development
+      };
+      
+      const { user, verificationToken } = await storage.createUser(modifiedUserData);
+      
+      // Attempt to send verification email, but don't fail if it doesn't work
+      try {
+        const verificationUrl = `${req.protocol}://${req.get("host")}${apiPrefix}/auth/verify/${verificationToken}`;
+        await sendEmail({
+          to: userData.email,
+          subject: "Verify your MedEvents account",
+          html: `
+            <h1>Welcome to MedEvents!</h1>
+            <p>Please verify your email address by clicking the link below:</p>
+            <a href="${verificationUrl}">Verify Email</a>
+          `,
+        });
+      } catch (emailError) {
+        console.error("Email sending failed:", emailError);
+        // Continue without failing the registration
+      }
       
       // Log the activity
-      await storage.logActivity(
-        user.id,
-        "register",
-        { email: user.email },
-        "user",
-        user.id,
-        req.ip,
-        req.headers["user-agent"]
-      );
+      try {
+        await storage.logActivity(
+          user.id,
+          "register",
+          { email: user.email },
+          "user",
+          user.id,
+          req.ip,
+          req.headers["user-agent"]
+        );
+      } catch (logError) {
+        console.error("Activity logging failed:", logError);
+        // Continue without failing the registration
+      }
       
       res.status(201).json({
-        message: "User registered successfully. Please check your email for verification.",
+        message: "User registered successfully. You can now log in.",
         user: {
           id: user.id,
           username: user.username,
@@ -162,9 +184,13 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(401).json({ message: "Invalid email or password" });
       }
       
+      // For development, skip email verification check
+      // In production, uncomment the following block:
+      /*
       if (!user.verified) {
         return res.status(403).json({ message: "Please verify your email before logging in" });
       }
+      */
       
       // Get user permissions
       const permissions = await storage.getUserPermissions(user.id);
